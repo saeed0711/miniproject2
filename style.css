@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  /* font-family: arial; */
+  /* border: border-box; */
+}
+
+.navbar {
+  background-color: #6f6af7;
+  height: 60px;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: larger;
+  position: fixed;
+}
+.name {
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+}
+b {
+  /* margin-top: 15px; */
+  font-size: 2rem;
+  font-family: Delius Unicase;
+}
+.more {
+  height: auto;
+}
+.search-select {
+  border: none;
+  width: 65px;
+  text-align: center;
+  background-color: #6f6af7;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.search {
+  display: flex;
+  height: 30px;
+}
+.search-input {
+  border-radius: 10px;
+  width: 80%;
+  font-size: 1rem;
+}
+.hamburger {
+  height: 50px;
+  width: 100px;
+  align-content: center;
+}
+.logo {
+  height: 30px;
+
+  background-size: contain;
+  background-image: url("ham.png");
+  background-repeat: no-repeat;
+}
+.upper {
+  padding-top: 70px;
+  height: 70vh;
+  display: flex;
+  /* background-color: chartreuse; */
+  align-items: center;
+
+  justify-content: space-around;
+}
+.image {
+  height: 85%;
+  width: 30%;
+  background-image: url("destop.png");
+  /* background-color: #f00e0e; */
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.discription {
+  margin-bottom: 20px;
+  height: 75%;
+  width: 60%;
+  background-color: #e5d8ff;
+  border-radius: 20px;
+}
+.text {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #6f7373;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+.stick {
+  height: 40%;
+  width: 5%;
+  /* height: 50%;
+  width: 7%; */
+  /* background-color: darkgreen; */
+  background-image: url("Frame\ 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: sticky;
+  top: 20px;
+}
+.hp {
+  /* display:inline-block; */
+  /* background-color: blue; */
+  position: relative;
+  height: 25vh;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgb(37, 29, 122); */
+  align-items: center;
+}
+.box {
+  border-radius: 5px;
+  height: 60%;
+  width: 15%;
+  background-color: chocolate;
+  font-size: large;
+  padding-left: 20px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.first {
+  background-color: #929dff;
+}
+.second {
+  background-color: #734cf2;
+}
+.third {
+  background-color: #d288ff;
+}
+.four {
+  background-color: #000000;
+}
+
+.help {
+  /* background-color: darkcyan; */
+  background-image: url("help.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  margin-left: 90%;
+  position: fixed;
+}
+.footer {
+  background-color: #6f6af7;
+  /* background-color: #000000; */
+  height: 80vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 10px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: end; */
+  /* flex-direction: row-reverse; */
+  justify-content: space-evenly;
+}
+.name {
+  width: 25%;
+  height: 90%;
+  /* background-color: blue;  */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* ;
+  height: 20px;
+  width: 20px;
+  /* width: 5000px; */
+}
+/*
+  display: flex;
+  
+ }*/
+.card {
+  /* background-color:#D288FF; */
+  width: 80%;
+  height: 20%;
+  border-radius: 15px;
+  /* height: 15%;
+  display: flex; */
+  text-align: center;
+  padding-top: 35px;
+  box-sizing: border-box;
+  font-size: larger;
+}
+.one {
+  background-color: #bce0f6;
+}
+.two {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.three {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.big {
+  border-radius: 5px;
+  margin-top: 20px;
+  height: 90%;
+  background-color: #ffffff;
+
+  width: 70%;
+  padding-left: 70px;
+  box-sizing: border-box;
+  padding-top: 70px;
+
+  /* align-content: center; */
+  /* display: flex;
+  margin-left: 10px;*/
+}
+.next {
+  background-color: #000000;
+  color: #ffffff;
+  height: 40px;
+  width: 120px;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 160px;
+  margin-left: 500px;
+  padding-top: 10px;
+  border-radius: 5px;
+  /* background-image: url("Arrow\ 1.png");
+  background-size: contain;
+  background-repeat: no-repeat; */
+}
+.title {
+  color: #04285a;
+  /* display: flex; */
+}
+span {
+  font-size: x-large;
+}
+h2 {
+  color: #04285a;
+  font-size: xx-large;
+}
